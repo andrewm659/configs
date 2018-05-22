@@ -1,0 +1,12 @@
+---
+- hosts: all
+  tasks:
+  - name: 'example copying file with owner and permissions'
+    copy:
+      src: foo.conf
+      dest: /usr/local/bin
+      remote_dest: yes
+      owner: andrew.meyer
+      group: andrew.meyer
+      mode: 0644
+      backup: yes
