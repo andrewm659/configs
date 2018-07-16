@@ -1,0 +1,20 @@
+defscrollback 100000
+autodetach on
+caption always "%?%{ Wk}%-Lw%?%{Rk}%n*%f %t%?(%u)%?%?%{Wk}%+Lw%? %{Rk}%=%c %{rk}%d/%M/%Y"
+term screen-256color
+terminfo rxvt-unicode 'Co#256:AB=\E[48;5;%dm:AF=\E[38;5;%dm'
+#hardstatus alwayslastline "%{rw}%H%{wk}|%?%-Lw%?%{wb}%n*%f %t%?(%u)%?%{wk}%?%+Lw%?"
+#idle 200
+shelltitle "$ |bash"
+#logfile $HOME/screenlog-%H-%Y%m%d-%c:%s
+#termcapinfo xterm* 'hs:ts=\E]0;:fs=\007:ds=\E]0;\007'
+#defhstatus "screen ^E (^Et) | $USER@^EH"
+#hardstatus off
+multiuser on
+altscreen on
+
+startup_message off
+hardstatus alwayslastline
+hardstatus string "%{gk} $LOGNAME@%H %{.bW} %-w%{.rW}%n %t%{-}%+w %= %{gk} %{wk}%m/%d %C%a "
+terminfo rxvt-unicode ti@:te@:
+termcapinfo rxvt-unicode ti@:te@     #enable SHIFT-PGUP / SHIFT-PGDOWN scroll
