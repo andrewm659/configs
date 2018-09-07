@@ -1,0 +1,14 @@
+VNC(R) Viewer 6.17.1113 (r31799) x64 (Nov 3 2017 13:33:45)
+Copyright (C) 2002-2017 RealVNC Ltd.
+RealVNC and VNC are trademarks of RealVNC Ltd and are protected by trademark
+registrations and/or pending trademark applications in the European Union,
+United States of America and other jurisdictions.
+Protected by UK patent 2481870; US patent 8760366; EU patent 2652951.
+See https://www.realvnc.com for information on VNC.
+For third party acknowledgements see:
+https://www.realvnc.com/docs/6/foss.html
+<11> 2018-08-01T02:41:03.518Z asm-junk-fedora1 vncviewer[2518]: Child: 21855: CSession: connection error: connect: Connection refused (111)
+<11> 2018-08-01T02:41:05.551Z asm-junk-fedora1 vncviewer[2518]: Child: 21855: CSession: connection error: connect: Connection refused (111)
+<11> 2018-08-01T02:41:08.537Z asm-junk-fedora1 vncviewer[2518]: Child: 21855: CSession: connection error: connect: Connection refused (111)
+<11> 2018-08-01T02:41:12.544Z asm-junk-fedora1 vncviewer[2518]: Child: 21855: CSession: connection error: connect: Connection refused (111)
+<11> 2018-08-01T02:41:17.553Z asm-junk-fedora1 vncviewer[2518]: Child: 21855: CSession: connection error: connect: Connection refused (111)

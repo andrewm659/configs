@@ -1,0 +1,36 @@
+"Registry"
+{
+	"HKLM"
+	{
+		"Software"
+		{
+			"Valve"
+			{
+				"Steam"
+				{
+					"SteamPID"		"0"
+					"TempAppCmdLine"		""
+				}
+			}
+		}
+	}
+	"HKCU"
+	{
+		"Software"
+		{
+			"Valve"
+			{
+				"Steam"
+				{
+					"RunningAppID"		"0"
+					"language"		"english"
+					"AutoLoginUser"		"andrewm659"
+					"RememberPassword"		"1"
+					"SourceModInstallPath"		"/home/ameyer/.local/share/Steam/steamapps\sourcemods"
+					"Rate"		"30000"
+					"AlreadyRetriedOfflineMode"		"0"
+				}
+			}
+		}
+	}
+}
